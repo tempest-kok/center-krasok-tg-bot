@@ -84,8 +84,8 @@ Copy-Item .env.example .env
 ```env
 TELEGRAM_BOT_TOKEN=your_botfather_token
 OPENAI_API_KEY=your_ai_api_key
-OPENAI_MODEL=gpt-4o-mini
-OPENAI_BASE_URL=
+OPENAI_MODEL=gemini-2.5-flash
+OPENAI_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/
 KNOWLEDGE_PATH=data/company_knowledge.json
 MAX_HISTORY_MESSAGES=8
 TOP_K_FACTS=5
@@ -171,7 +171,7 @@ GitHub-репозиторий `Nusultan11/telegrambot-centrekrasok` исполь
 
 - `TELEGRAM_BOT_TOKEN` — токен вашего Telegram-бота из BotFather.
 - `OPENAI_API_KEY` — ключ OpenAI или совместимого AI-провайдера.
-- `OPENAI_MODEL` — модель, например `gpt-4o-mini` или модель вашего провайдера.
+- `OPENAI_MODEL` — модель, например `gemini-2.5-flash` или модель вашего провайдера.
 - `OPENAI_BASE_URL` — endpoint совместимого API, если используется не OpenAI.
 - `KNOWLEDGE_PATH` — путь к вашей базе знаний, если файл переименован.
 - `MAX_HISTORY_MESSAGES` — сколько сообщений хранить в контексте.
